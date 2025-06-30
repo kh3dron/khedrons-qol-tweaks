@@ -7,11 +7,11 @@ data:extend({
     icon = "__khedrons-qol-tweaks__/graphics/icons/substation.png",
     flags = { "not-on-map", "not-blueprintable", "not-selectable-in-game" },
     max_health = 200,
-    collision_box = { { -0.7, -0.7 }, { 0.7, 0.7 } },
-    selection_box = { { -1, -1 }, { 1, 1 } },
+    selection_box = { { 0, 0 }, { 0, 0 } },
+    collision_box = { { 0, 0 }, { 0, 0 } },
     drawing_box_vertical_extension = 2,
-    maximum_wire_distance = 18,
-    supply_area_distance = 9,
+    maximum_wire_distance = 55,
+    supply_area_distance = 55,
     pictures =
     {
       layers =
@@ -23,7 +23,7 @@ data:extend({
           width = 138,
           height = 270,
           direction_count = 4,
-          shift = util.by_pixel(0, 1-32),
+          shift = util.by_pixel(0, 1 - 32),
           scale = 0.5
         },
         {
@@ -32,7 +32,7 @@ data:extend({
           width = 370,
           height = 104,
           direction_count = 4,
-          shift = util.by_pixel(62, 42-32),
+          shift = util.by_pixel(62, 42 - 32),
           draw_as_shadow = true,
           scale = 0.5
         }
