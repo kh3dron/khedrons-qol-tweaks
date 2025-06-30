@@ -1,5 +1,12 @@
 local util = require("util")
 
+-- Modify existing speed modules to eliminate quality decrease
+data.raw["module"]["speed-module"].effect.quality = 0
+data.raw["module"]["speed-module-2"].effect.quality = 0  
+data.raw["module"]["speed-module-3"].effect.quality = 0
+
+
+-- Add invisible substation to roboports
 data:extend({
   {
     type = "electric-pole",
@@ -98,6 +105,6 @@ data:extend({
           red = util.by_pixel(15, -92)
         }
       }
-    },
-  },
+    }
+  }
 })
