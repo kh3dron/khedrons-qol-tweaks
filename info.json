@@ -1,8 +1,8 @@
 {
-  "name": "ultra-magazine",
+  "name": "khedrons-qol-tweaks",
   "version": "2.0.0",
-  "title": "Ultra Magazine",
-  "author": "kh3dron",
+  "title": "Khedron's QoL Tweaks",
+  "author": "Kh3dron",
   "contact": "x @m00nwhaler",
   "homepage": "pizzahut.com",
   "dependencies": ["base >= 2.0.0"],

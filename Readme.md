@@ -1,4 +1,4 @@
-# ultra-magazine
+# khedron's QoL Tweaks
 
 Custom factorio mod for QOL features I want.
 
