@@ -21,3 +21,8 @@ Custom factorio mod for QOL features I want.
 
 - legendary buildings get more module slots? op
 - bot speed increases? not needed
+
+## Leaderboard of issues that have wasted time
+
+- 3 hours: not noticing that the API docs default to the latest experimental versions, IE I was modifying fields that do not exist in the latest stable release I was testing on
+- 30m: not adding the quality mod as a dependency of all my changes that affect quality

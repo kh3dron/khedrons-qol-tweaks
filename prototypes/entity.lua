@@ -1,19 +1,15 @@
 local util = require("util")
 
--- Modify existing speed modules to eliminate quality decrease (if enabled)
 if settings.startup["kqt-enable-speed-module-quality-fix"].value then
   data.raw["module"]["speed-module"].effect.quality = 0
-  data.raw["module"]["speed-module-2"].effect.quality = 0  
+  data.raw["module"]["speed-module-2"].effect.quality = 0
   data.raw["module"]["speed-module-3"].effect.quality = 0
 end
 
--- Add handcraftable engines (if enabled)
 if settings.startup["kqt-enable-handcraftable-engines"].value then
   data.raw["recipe"]["engine-unit"].category = "crafting"
 end
 
-
--- Add invisible substation to roboports (if enabled)
 if settings.startup["kqt-enable-invisible-substations"].value then
   data:extend({
     {
